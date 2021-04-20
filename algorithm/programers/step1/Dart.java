@@ -22,6 +22,7 @@ public class Dart {
 		scMap.put("T", 3);
 		scMap.put("#", -1);
 		scMap.put("*", 2);
+		
 
 		int[][] score = new int[3][3];
 		int pit = 0;
