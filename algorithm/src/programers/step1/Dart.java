@@ -16,7 +16,7 @@ public class Dart {
 		String dartResult = "1D2S#10S";
 
 		Dart sol = new Dart();
-		
+
 		Map<String, Integer> scMap = new HashMap<>();
 		scMap.put("S", 1);
 		scMap.put("D", 2);
@@ -79,7 +79,7 @@ public class Dart {
 	public int chrToInt(char ch1, char ch2) {
 		return Integer.parseInt(String.valueOf(ch1) + String.valueOf(ch2));
 	}
-	
+
 	public int chrToInt(char ch) {
 		return Integer.parseInt(String.valueOf(ch));
 	}

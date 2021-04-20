@@ -18,6 +18,5 @@ public class StrMake {
 		}
 
 		System.err.println(answer);
-		System.err.println(answer.length());
 	}
 }
