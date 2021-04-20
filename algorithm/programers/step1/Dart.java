@@ -13,33 +13,41 @@ public class Dart {
 //	7	1D2S3T*		59	1^2 + 2^1 * 2 + 3^3 * 2
 	public static void main(String[] args) {
 		int answer = 0;
-		String dartResult = "1S2D*3T";
+		String dartResult = "1D2S#10S";
 
 		Dart sol = new Dart();
+		
 		Map<String, Integer> scMap = new HashMap<>();
 		scMap.put("S", 1);
 		scMap.put("D", 2);
 		scMap.put("T", 3);
 		scMap.put("#", -1);
 		scMap.put("*", 2);
-		
 
 		int[][] score = new int[3][3];
 		int pit = 0;
 		for (int i = 0; i < dartResult.length(); i++) {
 			if (dartResult.charAt(i) >= 65 && dartResult.charAt(i) <= 84) {
 
+//				if (i != 1 && '1' == dartResult.charAt(i - 2) - '0') {
+//					score[pit][0] = dartResult.charAt(i - 2) - '0' + dartResult.charAt(i - 1) - '0';
+//				} else {
+//					score[pit][0] = dartResult.charAt(i - 1) - '0';
+//				}
 				if (i != 1 && "1".equals(String.valueOf(dartResult.charAt(i - 2)))) {
 					score[pit][0] = sol.chrToInt(dartResult.charAt(i - 2), dartResult.charAt(i - 1));
 				} else {
 					score[pit][0] = sol.chrToInt(dartResult.charAt(i - 1));
 				}
-
 				score[pit][1] = scMap.get(String.valueOf(dartResult.charAt(i)));
 
-				if (i < dartResult.length() - 1 && ("#".equals(String.valueOf(dartResult.charAt(i + 1)))
-						|| "*".equals(String.valueOf(dartResult.charAt(i + 1))))) {
-
+//				if (i < dartResult.length() - 1 && ("#".equals(String.valueOf(dartResult.charAt(i + 1)))
+//						|| "*".equals(String.valueOf(dartResult.charAt(i + 1))))) {
+//
+//					score[pit][2] = scMap.get(String.valueOf(dartResult.charAt(i + 1)));
+//				}
+				if (i < dartResult.length() - 1
+						&& ('#' == dartResult.charAt(i + 1) || '*' == dartResult.charAt(i + 1))) {
 					score[pit][2] = scMap.get(String.valueOf(dartResult.charAt(i + 1)));
 				}
 				pit++;
@@ -64,15 +72,14 @@ public class Dart {
 		for (int i : calArr) {
 			answer += i;
 		}
-
-//		System.err.println(answer);
+		System.err.println(answer);
 
 	}// main
 
 	public int chrToInt(char ch1, char ch2) {
 		return Integer.parseInt(String.valueOf(ch1) + String.valueOf(ch2));
 	}
-
+	
 	public int chrToInt(char ch) {
 		return Integer.parseInt(String.valueOf(ch));
 	}
