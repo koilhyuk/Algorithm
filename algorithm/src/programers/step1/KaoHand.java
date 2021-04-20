@@ -30,8 +30,7 @@ public class KaoHand {
 							rHand[0] = z;
 							rHand[1] = j;
 						} else {// z==1 가운데 라인
-							lLen = Math.abs(z - lHand[0]);
-							lLen += Math.abs(j - lHand[1]);
+							lLen = Math.abs(z - lHand[0]) + Math.abs(j - lHand[1]);
 							rLen = Math.abs(z - rHand[0]) + Math.abs(j - rHand[1]);
 							if (lLen > rLen) {
 								answer += "R";

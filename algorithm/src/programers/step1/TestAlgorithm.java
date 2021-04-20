@@ -14,23 +14,29 @@ public class TestAlgorithm {
 		for (int i = 0; i < moves.length; i++) {
 			for (int j = 0; j < board.length; j++) {
 				if (board[j][moves[i] - 1] != 0) {
-					tmpArr.add(board[j][moves[i] - 1]);
+					if (tmpArr.size() == 0 || tmpArr.get(tmpArr.size() - 1) != board[j][moves[i] - 1]) {
+						tmpArr.add(board[j][moves[i] - 1]);
+					} else {
+						answer += 2;
+						tmpArr.remove(tmpArr.size() - 1);
+					}
 					board[j][moves[i] - 1] = 0;
 					break;
 				}
 			}
 		}
 
-		for (int i = 0; i < tmpArr.size(); i++) {
-			if ((i + 1) == tmpArr.size())
-				break;
-			if (tmpArr.get(i) == tmpArr.get(i + 1)) {
-				answer += 2;
-				tmpArr.remove(i + 1);
-				tmpArr.remove(i);
-				i = -1;
-			}
-		}
+//		for (int i = 0; i < tmpArr.size(); i++) {
+//			if ((i + 1) == tmpArr.size())
+//				break;
+//			if (tmpArr.get(i) == tmpArr.get(i + 1)) {
+//				answer += 2;
+//				tmpArr.remove(i + 1);
+//				tmpArr.remove(i);
+//				i = -1;
+//			}
+//			
+//		}
 
 		System.err.println(answer);
 
