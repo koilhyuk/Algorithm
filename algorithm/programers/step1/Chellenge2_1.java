@@ -14,7 +14,7 @@ public class Chellenge2_1 {
 		}
 
 		System.out.println(answer);
-
+		
 	}
 
 }
