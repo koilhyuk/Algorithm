@@ -4,7 +4,7 @@ package programers.step1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MinNumRemove {
+public class MinNumRemove_1 {
 
 	public static void main(String[] args) {
 		int[] arr = { 4, 1, 2, 3 };

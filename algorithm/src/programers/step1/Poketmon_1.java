@@ -3,7 +3,7 @@ package programers.step1;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Poketmon {
+public class Poketmon_1 {
 	public static void main(String[] args) {
 
 		int[] nums = { 3,3,3,2,2,2};

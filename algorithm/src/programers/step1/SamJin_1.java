@@ -3,7 +3,7 @@ package programers.step1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SamJin {
+public class SamJin_1 {
 	public static void main(String[] args) {
 		int n = 45;
 		int answer = 0;

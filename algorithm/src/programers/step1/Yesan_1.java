@@ -2,7 +2,7 @@ package programers.step1;
 
 import java.util.Arrays;
 
-public class Yesan {
+public class Yesan_1 {
 
 	public static void main(String[] args) {
 //		int[] d = { 1, 3, 2, 5, 4 };

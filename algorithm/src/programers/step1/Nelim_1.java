@@ -2,7 +2,7 @@ package programers.step1;
 
 import java.util.Arrays;
 
-public class Nelim {
+public class Nelim_1 {
 
 	public static void main(String[] args) {
 

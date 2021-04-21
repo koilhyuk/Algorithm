@@ -1,6 +1,6 @@
 package programers.step1;
 
-public class JeCop {
+public class JeCop_1 {
 	public static void main(String[] args) {
 		long n = 121;
 		long answer = 0;

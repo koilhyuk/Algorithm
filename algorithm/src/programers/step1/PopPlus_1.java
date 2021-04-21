@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class PopPlus {
+public class PopPlus_1 {
 
 	public static void main(String[] args) {
 		int[] numbers = { 2, 1, 3, 4, 1 };

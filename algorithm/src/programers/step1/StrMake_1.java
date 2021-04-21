@@ -1,6 +1,6 @@
 package programers.step1;
 
-public class StrMake {
+public class StrMake_1 {
 	public static void main(String[] args) {
 		String s = "try helloworldjfdl awits asdwgeffa we fgfew fdsfas wqiewq mblxvf ";
 		String answer = "";

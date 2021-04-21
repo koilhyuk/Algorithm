@@ -3,7 +3,7 @@ package programers.step1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SosuMake {
+public class SosuMake_1 {
 	public static void main(String[] args) {
 		int answer = -1;
 		int[] nums = { 1, 2, 3, 4 };
