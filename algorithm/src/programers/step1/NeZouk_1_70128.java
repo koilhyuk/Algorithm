@@ -1,6 +1,6 @@
 package programers.step1;
 
-public class NeZouk_1 {
+public class NeZouk_1_70128 {
 	public static void main(String[] args) {
 		int[] a = { 1, 2, 3, 4 };
 		int[] b = { -3, -1, 0, 2 };
@@ -10,6 +10,6 @@ public class NeZouk_1 {
 			answer += a[i] * b[i];
 		}
 		System.err.println(answer);
-		
+
 	}
 }

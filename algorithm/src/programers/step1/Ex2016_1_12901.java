@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class Ex2016_1 {
+public class Ex2016_1_12901 {
 
 	public static void main(String[] args) throws ParseException {
 		int a = 5;

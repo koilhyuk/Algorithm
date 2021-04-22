@@ -2,7 +2,7 @@ package programers.step1;
 
 import java.util.Arrays;
 
-public class Nelim_1 {
+public class IntegerNelim_1_12933 {
 
 	public static void main(String[] args) {
 
@@ -16,8 +16,8 @@ public class Nelim_1 {
 		for (int i = tempArr.length - 1; i >= 0; i--) {
 			answer += tempArr[i] * (Math.pow(10, tempArr.length - (tempArr.length - i)));
 		}
-		
+
 		System.err.println(answer);
-		
+
 	}
 }

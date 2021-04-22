@@ -1,6 +1,6 @@
 package programers.step1;
 
-public class SameNum_1 {
+public class SameNum_1_12906 {
 
 	public static void main(String[] args) {
 		int[] arr = { 1, 1, 3, 3, 0, 1, 1 };

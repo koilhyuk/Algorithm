@@ -3,7 +3,7 @@ package programers.step1;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Dart_1 {
+public class Dart_1_17682 {
 //	1	1S2D*3T		37	1^1 * 2 + 2^2 * 2 + 3^3
 //	2	1D2S#10S	9	1^2 + 2^1 * (-1) + 10^1
 //	3	1D2S0T		3	1^2 + 2^1 + 0^3
@@ -15,7 +15,7 @@ public class Dart_1 {
 		int answer = 0;
 		String dartResult = "1D2S#10S";
 
-		Dart_1 sol = new Dart_1();
+		Dart_1_17682 sol = new Dart_1_17682();
 
 		Map<String, Integer> scMap = new HashMap<>();
 		scMap.put("S", 1);

@@ -1,9 +1,11 @@
 package programers.step1;
 
-public class StrMake_1 {
+public class StrangeStr_1_12930 {
 	public static void main(String[] args) {
-		String s = "try helloworldjfdl awits asdwgeffa we fgfew fdsfas wqiewq mblxvf ";
+
+		String s = "try hello world";
 		String answer = "";
+
 		String[] temp = s.split(" ", -1);
 		String ch = "";
 
@@ -12,11 +14,12 @@ public class StrMake_1 {
 				ch = String.valueOf(temp[i].charAt(j));
 				answer += j % 2 == 0 ? ch.toUpperCase() : ch.toLowerCase();
 			}
-			if (i < temp.length - 2) {
+			if (i < temp.length - 1) {
 				answer += " ";
 			}
 		}
 
-		System.err.println(answer);
+		System.out.print(answer);
+
 	}
 }

@@ -4,7 +4,7 @@ package programers.step1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MinNumRemove_1 {
+public class MinNumRemove_1_12935 {
 
 	public static void main(String[] args) {
 		int[] arr = { 4, 1, 2, 3 };
@@ -33,6 +33,7 @@ public class MinNumRemove_1 {
 			if (min > arr[i]) {
 				min = arr[i];
 				minIdx = i;
+
 			}
 		}
 

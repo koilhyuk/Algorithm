@@ -2,11 +2,11 @@ package programers.step1;
 
 import java.util.Arrays;
 
-public class Yesan_1 {
+public class Yesan_1_12982 {
 
 	public static void main(String[] args) {
 //		int[] d = { 1, 3, 2, 5, 4 };
-		int[] d = { 2,2,3,3 };
+		int[] d = { 2, 2, 3, 3 };
 //		int budget = 9;
 		int budget = 10;
 
@@ -23,8 +23,6 @@ public class Yesan_1 {
 			}
 		}
 
-		
-		
 		System.out.println(answer);
 
 	}

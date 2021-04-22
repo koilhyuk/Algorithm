@@ -3,7 +3,7 @@ package programers.step1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SosuMake_1 {
+public class PrimeNumberMake_1_12977 {
 	public static void main(String[] args) {
 		int answer = -1;
 		int[] nums = { 1, 2, 3, 4 };
@@ -27,6 +27,8 @@ public class SosuMake_1 {
 			}
 		}
 		answer = tempList.size() - non;
+
+		System.err.println(answer);
 
 	}
 }

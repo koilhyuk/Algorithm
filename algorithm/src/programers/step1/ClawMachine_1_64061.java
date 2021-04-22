@@ -3,7 +3,7 @@ package programers.step1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClawMachine_1 {
+public class ClawMachine_1_64061 {
 	public static void main(String[] args) {
 		int answer = 0;
 		List<Integer> tmpArr = new ArrayList<Integer>();

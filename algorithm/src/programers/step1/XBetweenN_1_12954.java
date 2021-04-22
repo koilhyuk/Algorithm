@@ -1,6 +1,6 @@
 package programers.step1;
 
-public class XBetweenN_1 {
+public class XBetweenN_1_12954 {
 	public static void main(String[] args) {
 		int x = -4;
 		int n = 22;

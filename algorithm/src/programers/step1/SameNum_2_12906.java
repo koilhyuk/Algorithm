@@ -2,7 +2,7 @@ package programers.step1;
 
 import java.util.Stack;
 
-public class SameNum_2 {
+public class SameNum_2_12906 {
 
 	public static void main(String[] args) {
 		int[] arr = { 0, 1, 1, 3, 3, 0, 1, 1 };

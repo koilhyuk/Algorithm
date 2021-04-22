@@ -4,10 +4,9 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class TestPop {
+public class TwoPopPlus_1_68644 {
 	public static void main(String[] args) {
 
-		
 		int[] numbers = { 5, 0, 2, 7 };
 		Set<Integer> set = new HashSet<>();
 
@@ -19,11 +18,12 @@ public class TestPop {
 		int[] answer = new int[set.size()];
 		Integer[] tempAns = new Integer[set.size()];
 		set.toArray(tempAns);
-		
+
 		answer = Arrays.stream(tempAns).mapToInt(Integer::intValue).toArray();
-		
-		
-		
-		
+
+		for (int i : answer) {
+			System.err.println(i);
+		}
+
 	}
 }

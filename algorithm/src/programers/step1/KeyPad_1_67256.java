@@ -1,6 +1,6 @@
 package programers.step1;
 
-public class KaoHand_1 {
+public class KeyPad_1_67256 {
 	public static void main(String[] args) {
 		int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
 		String hand = "right";

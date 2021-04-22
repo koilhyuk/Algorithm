@@ -3,21 +3,11 @@ package programers.step1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SamJin_1 {
+public class SamJin_1_68935 {
 	public static void main(String[] args) {
 		int n = 45;
 		int answer = 0;
 
-//		String a = "";
-//
-//		while (n > 0) {
-//			a = (n % 3) + a;
-//			n /= 3;
-//			System.err.println(a);
-//		}
-//		a = new StringBuilder(a).reverse().toString();
-//		System.err.println(a);
-//		System.err.println(Integer.parseInt(a, 3));
 		List<Integer> tempList = new ArrayList<Integer>();
 
 		int sam = 3;

@@ -1,6 +1,6 @@
 package programers.step1;
 
-public class Ex2016_2 {
+public class Ex2016_2_12901 {
 
 	public static void main(String[] args) {
 		int a = 5;
