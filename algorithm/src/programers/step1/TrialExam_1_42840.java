@@ -30,12 +30,10 @@ public class TrialExam_1_42840 {
 		List<Integer> tempList = new ArrayList<>();
 		for (int i = 0; i < tempArr.length; i++) {
 			if (maxOk == tempArr[i]) {
-				tempList.add(i);
+				tempList.add(i+1);
 			}
 		}
 		int[] answer = tempList.stream().mapToInt(Integer::intValue).toArray();
-		System.err.println(maxOk);
-//		int[] answer = int new[];
 
 	}
 
