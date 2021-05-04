@@ -24,7 +24,13 @@ public class Budget_1_12982 {
 		}
 
 		System.out.println(answer);
-
 	}
-
 }
+// python solution
+//y = sorted(d, reverse=True)
+//while(len(y)):
+//    budget-=y.pop()
+//    if budget >= 0 :
+//        answer+=1
+//    else :
+//        break
