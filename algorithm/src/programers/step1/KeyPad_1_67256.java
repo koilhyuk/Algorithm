@@ -65,22 +65,36 @@ public class KeyPad_1_67256 {
 	}
 
 }
+// python solution
 //
-//numbers 배열의 크기는 1 이상 1,000
-//이하입니다.
-//numbers 배열
-//원소의 값은 0 이상 9
-//이하인 정수입니다.hand는"left"또는"right"입니다."left"
-//는 왼손잡이,"right"
-//는 오른손잡이를
-//의미합니다.왼손 엄지손가락을
-//사용한 경우는 L,
-//오른손 엄지손가락을
-//사용한 경우는
-//R을 순서대로
-//이어붙여 문자열 형태로 return 해주세요
-//.
+//def solution(numbers, hand):
+//    key ={1:[0,0],2:[0,1],3:[0,2],4:[1,0],5:[1,1],6:[1,2],7:[2,0],8:[2,1],9:[2,2],0:[3,1]}
 //
-//[1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5]	"right"	"LRLLLRLLRRL" LRLLLRLLRRL
-//[7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2]	"left"	"LRLLRRLLLRR" LLLLRRLLLRR
-//[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]	"right"	"LLRLLRLLRL" 
+//    rHand = [3,2]
+//    lHand = [3,0]
+//    answer =[]
+//    for i in numbers:
+//        pitIdx = key.get(i)
+//        if i == 1 or i == 4 or i ==7:
+//            lHand=pitIdx
+//            answer.append("L")
+//        elif i == 3 or i == 6 or i ==9:
+//            rHand=pitIdx
+//            answer.append("R")
+//        else:
+//            lLen = abs(lHand[0]-pitIdx[0])+abs(lHand[1]-pitIdx[1])
+//            rLen = abs(rHand[0]-pitIdx[0])+abs(rHand[1]-pitIdx[1])
+//            if lLen > rLen:
+//                rHand=pitIdx
+//                answer.append("R")
+//            elif lLen < rLen:
+//                lHand=pitIdx
+//                answer.append("L")
+//            else:
+//                if hand == "right":
+//                    rHand=pitIdx
+//                    answer.append("R")
+//                else:
+//                    lHand=pitIdx
+//                    answer.append("L")
+//    return ''.join(answer)
