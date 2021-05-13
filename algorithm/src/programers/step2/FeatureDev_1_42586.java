@@ -21,12 +21,9 @@ public class FeatureDev_1_42586 {
 //           == 0 else int((100-progresses[i])/speeds[i]+1) for i in range(len(progresses))]
 //idx = 1
 //while len(restDay) > 0:
-//
 //    if(len(restDay)-1 >= idx and restDay[0]-restDay[idx] >= 0):
 //        idx += 1
 //    else:
-//        print(idx)
-//        print(restDay)
 //        answer.append(idx)
 //        restDay = restDay[idx:]
 //        idx = 1
