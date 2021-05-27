@@ -14,29 +14,21 @@ public class Printer_1_42587 {
 		
 	}
 }
-
-
-// 좀 더 고민
-//# # [2, 1, 3, 2] 2 1
-//# [1, 1, 9, 1, 1, 1]
-//# priorities = [1, 1, 9, 1, 1, 1]
-//location = 0
-//# priorities = [2, 1, 3, 2]
-//priorities = [1]
-//location = 0
+// 어려움..
 //
-//temp = sorted(priorities, reverse=True)
-//listLen = len(priorities)
+//priorities = [2, 1, 3, 2]
+//location = 2
 //
-//while temp != priorities:
-//    for i in range(1, len(priorities)):
-//        print("location : "+str(location))
-//        if priorities[0] < priorities[i]:
-//            if location == 0:
-//                location = listLen-1
-//            else:
-//                location -= 1
-//            priorities.append(priorities.pop(0))
-//            break
+//locList = [c for c in range(len(priorities))]
+//
+//idx = 0
+//while priorities != sorted(priorities, reverse=True):
+//    if priorities[idx] < max(priorities[idx+1:]):
+//        locList.append(locList.pop(idx))
+//        priorities.append(priorities.pop(idx))
+//    else:
+//        idx += 1
+//
+//print(locList)
 //print(priorities)
-//print(location)
+//print(locList.index(location) + 1)
