@@ -1,7 +1,8 @@
-package baekjoon;
+package algorithm.src.baekjoon;
 
 public class HelloWorld_1_2557 {
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
+		
 	}
 }
