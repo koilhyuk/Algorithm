@@ -1,4 +1,4 @@
-package algorithm.src.programers.step1;
+package programers.step1;
 
 import java.util.ArrayList;
 import java.util.Arrays;

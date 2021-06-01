@@ -1,4 +1,4 @@
-package algorithm.src.baekjoon;
+package baekjoon;
 
 public class HelloWorld_1_2557 {
 	public static void main(String[] args) {
