@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.bronze;
 
 public class HelloWorld_1_2557 {
 	public static void main(String[] args) {
