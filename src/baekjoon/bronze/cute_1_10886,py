@@ -1,0 +1,6 @@
+num = int(input())
+a = [-1 if not int(input()) else 1 for i in range(num)]
+if sum(a)>=0:
+    print("Junhee is cute!")
+else:
+    print("Junhee is not cute!")
